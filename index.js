@@ -24,4 +24,3 @@ const driversByName = function (drivers) {
   });
 };
 
-const 
