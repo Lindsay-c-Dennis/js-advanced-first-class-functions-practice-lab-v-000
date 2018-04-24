@@ -30,4 +30,5 @@ const totalRevenue = function (drivers) {
   drivers.forEach(function (driver) {
     totalRevenue += driver.revenue;
   });
+  return totalRevenue;
 };
