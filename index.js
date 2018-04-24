@@ -12,6 +12,12 @@ const logDriversByHometown = function (drivers, hometown) {
   });
 };
 
-const  driversByRevenue(drivers) = function (agg, el, i, drivers) {
-  
-};
+const  driversByRevenue(drivers) = function compare (a,b) {
+  if (a.last_nom < b.last_nom)
+    return -1;
+  if (a.last_nom > b.last_nom)
+    return 1;
+  return 0;
+}
+
+objs.sort(compare);
