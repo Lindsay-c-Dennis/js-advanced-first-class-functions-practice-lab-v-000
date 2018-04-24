@@ -28,6 +28,6 @@ const totalRevenue = function (drivers) {
   let totalRevenue = 0;
   
   drivers.forEach(function (driver) {
-    
-  })
-}
+    totalRevenue += driver.revenue;
+  });
+};
