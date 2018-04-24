@@ -12,7 +12,9 @@ const logDriversByHometown = function (drivers, hometown) {
   });
 };
 
-const  driversByRevenue(drivers) = function compare (a,b) {
+const  driversByRevenue(drivers) = function 
+
+compare (a,b) {
   if (a.last_nom < b.last_nom)
     return -1;
   if (a.last_nom > b.last_nom)
