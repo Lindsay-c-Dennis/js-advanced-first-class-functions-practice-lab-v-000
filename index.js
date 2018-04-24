@@ -12,6 +12,6 @@ const logDriversByHometown = function (drivers, hometown) {
   });
 };
 
-const driversByRevenue = function (drivers) {
+const driversByRevenue = function (agg, el, i, drivers) {
   
 };
