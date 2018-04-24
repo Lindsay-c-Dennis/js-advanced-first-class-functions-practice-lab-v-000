@@ -13,4 +13,4 @@ const logDriversByHometown = function (drivers, hometown) {
 };
 
 const  driversByRevenue(drivers) = function (drivers) {
-  
+  return drivers.slice().sort()
